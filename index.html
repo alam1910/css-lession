@@ -1,37 +1,116 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Css practice</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body> 
-    <h1>We are all</h1>
 
-    <p>আমি CSS শিখছি!</p>
-    <p id="cssText">Css is a easy language</p>
-    <p class="jaforText">Css is a easy language</p>
-    <p class="jaforText">Jafor is a good learner</p>
+<body>
+    <div>
+        <h1>We are all</h1>
 
-    <ol>শুধু ৩টা শব্দ মনে রাখলেই চলবে <br>
+        <p>আমি CSS শিখছি!</p>
+        <p id="cssText">Css is a easy language</p>
+        <p class="jaforText">Css is a easy language</p>
+        <p class="jaforText">Jafor is a good learner</p>
 
-        <li>Selector (সিলেক্টর) → কোন জিনিস সাজাবো (p, h1)</li>
-        <li>Property (প্রপার্টি) → কী বদলাবো (color)</li>
-        <li>Value (ভ্যালু) → কীভাবে বদলাবো (red)</li>
-    </ol>
-    <p id="rmText">Rigan and mobin are brothers</p>
+        <ol>শুধু ৩টা শব্দ মনে রাখলেই চলবে <br>
+
+            <li>Selector (সিলেক্টর) → কোন জিনিস সাজাবো (p, h1)</li>
+            <li>Property (প্রপার্টি) → কী বদলাবো (color)</li>
+            <li>Value (ভ্যালু) → কীভাবে বদলাবো (red)</li>
+        </ol>
+        <p id="rmText">Rigan and <span class="mobinText">mobin</span> are <strong class="bro">brothers</strong></p>
 
 
-    <h3>মনে রাখার ৩টা কথা</h3>
-    <ol>
-        <li>class HTML-এ লেখা হয়</li>
-    <li>CSS-এ class ধরতে . লাগে</li>
-    <li>এক class অনেক জায়গায় ব্যবহার করা যায়</li>
-    </ol>
+        <h3>মনে রাখার ৩টা কথা</h3>
+        <ol>
+            <li>class HTML-এ লেখা হয়</li>
+            <li>CSS-এ class ধরতে . লাগে</li>
+            <li>এক class অনেক জায়গায় ব্যবহার করা যায়</li>
+        </ol>
+    </div>
 
 
     <div class="box">আমি একটা বক্স</div>
+    <p>গুরুত্বপূর্ণ টিপস 🧠</p>
+    <ol>
+        <li> width না দিলে → বক্স পুরো স্ক্রিন নেয়</li>
 
+        <li> height না দিলে → লেখা অনুযায়ী লম্বা হয়</li>
+        <li>px মানে পিক্সেল (স্ক্রিনের একক)</li>
+
+    </ol>
+    <ul>আগে একটা কথা 🧠
+
+        HTML-এর সব এলিমেন্টের একটা display টাইপ থাকে।
+
+        সবচেয়ে গুরুত্বপূর্ণ দুইটা:
+        <li>block</li>
+        <li>inline</li>
+
+    </ul>
+    <p>আমি নতুন লাইনে চলে আসি</p>
+    <p>আমি এক লাইনে একাই থাকি</p>
+
+    <p>Inline element যতটুকু দরকার, ততটুকুই জায়গা নেয়।</p>
+    <p>উদাহরণ:</p>
+    <ul>
+        <li>span</li>
+        <li>a</li>
+        <li>strong</li>
+    </ul>
+
+    <span>আমি</span>
+    <span>একই</span>
+    <span>লাইনে</span>
+
+    <h4>মনে রাখার কথা 🧠</h4>
+    <ul>
+        <li>block → পুরো লাইন নেয়</li>
+        <li>inline → যতটুকু দরকার</li>
+        <li>display দিয়ে বদলানো যায়</li>
+    </ul>
+
+
+    <div>
+        <p class="dibba">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae ea illum ex deleniti atque
+            suscipit, consequatur est a impedit autem voluptates veritatis doloribus maxime id cupiditate optio placeat
+            repudiandae! Laborum.</p>
+        <p class="dibba">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore cum fuga veritatis doloribus,
+            incidunt minus ea nostrum voluptatibus odio laborum?</p>
+
+
+        <h3>Flexbox (একদম পরিচয়)</h3>
+        <p>Flexbox ব্যবহার হয়:</p>
+        <ul>
+            <li>➡️ জিনিসগুলো এক লাইনে সাজাতে,
+
+            </li>
+            <li>➡️ মাঝখানে আনতে,</li>
+            <li>➡️ সমান দূরত্বে রাখতে।</li>
+        </ul>
+        <p>আগে যেটা কঠিন ছিল, flexbox সেটা সহজ করে দেয় ✨</p>
+        <h3>Flexbox শুরু হয় কোথা থেকে?</h3>
+        <h4>👉 parent (বাবা) element থেকে।</h4>
+    </div>
+
+    <!-- .container>.box*3{box $} -->
+    <div class="container">
+        <div class="newbox">box 1</div>
+        <div class="newbox">box 2</div>
+        <div class="newbox">box 3</div>
+    </div>
+
+    <h4>Flexbox-এর ৩টা গুরুত্বপূর্ণ শব্দ 🧠</h4>
+    <ol>
+        <li>flex-direction → কোন দিকে সাজাবে</li>
+        <li>justify-content → আড়াআড়ি (horizontal) সাজানো</li>
+        <li>align-items → লম্বালম্বি (vertical) সাজানো</li>
+    </ol>
 </body>
+
 </html>
