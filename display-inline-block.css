@@ -1,0 +1,14 @@
+.para {
+    /* display: inline; */
+    
+    color: red;
+}
+.listclass {
+    /* display: inline; */
+}
+
+#spanid {
+    color: gray;
+    display: block;
+}
+
