@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Positions</title>
+    <style>
+        .container {
+            display: flex;
+            gap: 10px;
+            border: 1px solid red;
+            background-color: beige;
+            height: 600px;
+            /* align-items: end; */
+            /* align-items: center; */
+            align-items: end;
+            /* justify-content: center; */
+            justify-content: right;
+            /* justify-content: space-around; */
+            /* justify-content: space-between; */
+            /* justify-content: space-evenly; */
+            
+        }
+
+        .parent1 {
+            background-color: green;
+            border: 2px solid red;
+            border-radius: 5px;
+            /* position: relative; */
+            /* top: 200px; */
+            /* left: 20px; */
+            /* right: 40px; */
+            width: 200px;
+            height: 200px;
+        }
+
+        .parent2 {
+            background-color: green;
+            border: 2px solid red;
+            /* position: relative; */
+            /* top: 200px; */
+            left: 250px;
+            /* right: 40px; */
+            width: 200px;
+            height: 200px;
+            /* background-color: green; */
+        }
+
+        .parent3 {
+            background-color: green;
+            border: 2px solid red;
+            /* position: relative; */
+            /* top: 200px; */
+            /* left: 20px; */
+            /* right: 40px; */
+            width: 200px;
+            height: 200px;
+            /* background-color: green; */
+        }
+
+        .child {
+            /* position: absolute; */
+            /* top: 50px; */
+            /* right: 10px; */
+            /* background-color: coral; */
+            /* padding: 5px; */
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <!-- parent 1 -->
+        <div class="parent1">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, ius</p>
+            <div class="child">
+                আমি কোণায় 😄
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, eos ullam?</p>
+        </div>
+
+        <!-- parent 2 -->
+
+        <div class="parent2">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, ius</p>
+            <div class="child">
+                আমি কোণায় 😄
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, eos ullam?</p>
+        </div>
+
+        <!-- parent 3 -->
+
+        <div class="parent3">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, ius</p>
+            <div class="child">
+                আমি কোণায় 😄
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, eos ullam?</p>
+        </div>
+    </div>
+
+</body>
+
+</html>
