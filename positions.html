@@ -7,28 +7,29 @@
     <title>Positions</title>
     <style>
         .container {
-            display: flex;
+            /* display: flex; */
+            /* flex-direction: column; */
             gap: 10px;
             border: 1px solid red;
             background-color: beige;
             height: 600px;
             /* align-items: end; */
             /* align-items: center; */
-            align-items: end;
+            /* align-items: end; */
             /* justify-content: center; */
-            justify-content: right;
+            /* justify-content: right; */
             /* justify-content: space-around; */
             /* justify-content: space-between; */
             /* justify-content: space-evenly; */
-            
+
         }
 
         .parent1 {
             background-color: green;
             border: 2px solid red;
-            border-radius: 5px;
-            /* position: relative; */
-            /* top: 200px; */
+            border-radius: 10px;
+            position: relative;
+            top: 200px;
             /* left: 20px; */
             /* right: 40px; */
             width: 200px;
@@ -38,9 +39,9 @@
         .parent2 {
             background-color: green;
             border: 2px solid red;
-            /* position: relative; */
+            position: relative;
             /* top: 200px; */
-            left: 250px;
+            /* left: 250px; */
             /* right: 40px; */
             width: 200px;
             height: 200px;
@@ -50,7 +51,7 @@
         .parent3 {
             background-color: green;
             border: 2px solid red;
-            /* position: relative; */
+            position: relative;
             /* top: 200px; */
             /* left: 20px; */
             /* right: 40px; */
@@ -60,11 +61,11 @@
         }
 
         .child {
-            /* position: absolute; */
-            /* top: 50px; */
-            /* right: 10px; */
-            /* background-color: coral; */
-            /* padding: 5px; */
+            position: absolute;
+            top: 50px;
+            right: 10px;
+            background-color: coral;
+            padding: 5px;
         }
     </style>
 </head>
@@ -73,7 +74,8 @@
     <div class="container">
         <!-- parent 1 -->
         <div class="parent1">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, ius</p>
+
+            <p>parent1 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, ius</p>
             <div class="child">
                 আমি কোণায় 😄
             </div>
@@ -83,7 +85,7 @@
         <!-- parent 2 -->
 
         <div class="parent2">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, ius</p>
+            <p>parent2Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, ius</p>
             <div class="child">
                 আমি কোণায় 😄
             </div>
@@ -93,7 +95,7 @@
         <!-- parent 3 -->
 
         <div class="parent3">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, ius</p>
+            <p>parent3Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, ius</p>
             <div class="child">
                 আমি কোণায় 😄
             </div>
