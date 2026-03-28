@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+body {
+  padding: 50px;
+  border: 1px solid aqua;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background: orange;
+  animation: moveBox 1s infinite alternate;
+}
+
+@keyframes moveBox {
+  from {
+    transform: translateY(0px);
+  }
+  to {
+    transform: translateY(500px);
+  }
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="box"></div>
+
+</body>
+</html>
